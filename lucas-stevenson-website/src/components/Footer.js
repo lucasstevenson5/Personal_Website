@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer(props) {
     return (
-        <footer className="text-platinum border-solid border-b-2 border-black block flex justify-around text-center p-8 bg-onyx text-xl">
+        <footer className="text-platinum border-solid border-t-2 border-black block flex justify-evenly text-center p-8 bg-onyx text-xl">
             <a href="https://www.linkedin.com/in/lucas-stevenson-b8914b122/" target="_blank">
                 <img 
                     src="https://image.flaticon.com/icons/png/512/174/174857.png" 
