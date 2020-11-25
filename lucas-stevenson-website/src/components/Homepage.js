@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../redheadAvatar.png';
+import avatar from '../images/redheadAvatar.png';
 
 function Homepage(props) {
     return (
