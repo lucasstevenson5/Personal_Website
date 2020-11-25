@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Homepage from './components/Homepage';
 import AboutMe from './components/AboutMe';
 import ProjectsContainer from './components/ProjectsContainer';
+import Resume from './components/Resume';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <ProjectsContainer />
+          </Route>
+          <Route path="/resume">
+            <Resume />
           </Route>
         </Switch>
       </main>
